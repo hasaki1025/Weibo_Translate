@@ -42,6 +42,8 @@ def replace(text):
     return text.replace('\n', ' ') + '\n'
 
 
+
+
 #def main():
 #    data = read_data('weibo_lines.txt')
 #    model_name = 'qwen2:7b'
@@ -50,5 +52,3 @@ def replace(text):
 #        text = data[i]
 #        translated_text = translate(model_name, text)
 #        f.write(post_process(translated_text))
-
-
